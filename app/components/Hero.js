@@ -24,12 +24,12 @@ export default function Hero() {
       />
 
       {/* Content — bottom-anchored */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 pb-20 pt-40">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-end">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 pb-20 pt-30">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           {/* ── LEFT ── */}
           <div className="animate-fade-up">
             {/* Pill badge */}
-            <div
+            {/* <div
               className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-medium mb-7"
               style={{
                 background: "rgba(74,175,107,0.20)",
@@ -38,8 +38,8 @@ export default function Hero() {
               }}
             >
               <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse flex-shrink-0" />
-              Delhi NCR&apos;s Premium Landscape Studio
-            </div>
+              India&apos;s Premium Landscape Studio
+            </div> */}
 
             <h1
               className="font-bold text-white leading-[1.05] mb-6"
@@ -141,11 +141,12 @@ export default function Hero() {
           </div>
 
           {/* ── RIGHT — contact form ── */}
-          <div className="hidden lg:flex justify-end items-end">
+          <div className="hidden lg:flex justify-end items-center">
             <form
               className="rounded-3xl p-6 animate-float w-full max-w-md"
               style={{
-                background: "linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.04))",
+                background:
+                  "linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.04))",
                 backdropFilter: "blur(16px)",
                 border: "1px solid rgba(255,255,255,0.12)",
               }}
@@ -153,7 +154,10 @@ export default function Hero() {
             >
               <p
                 className="text-xs font-semibold tracking-widest uppercase mb-4"
-                style={{ color: "rgba(163,217,177,0.9)", fontFamily: "DM Sans, sans-serif" }}
+                style={{
+                  color: "rgba(163,217,177,0.9)",
+                  fontFamily: "DM Sans, sans-serif",
+                }}
               >
                 Get a Free Quote
               </p>
@@ -177,7 +181,7 @@ export default function Hero() {
                   placeholder="Email address"
                   className="w-full px-4 py-2 rounded-xl bg-white/6 placeholder-white/60 text-white border border-white/10 focus:outline-none"
                 />
-                <select
+                {/* <select
                   name="service"
                   className="w-full px-4 py-2 rounded-xl bg-white/6 text-white border border-white/10 focus:outline-none"
                 >
@@ -185,7 +189,7 @@ export default function Hero() {
                   <option>Design & Build</option>
                   <option>Maintenance</option>
                   <option>Other</option>
-                </select>
+                </select> */}
                 <textarea
                   name="message"
                   rows={3}
@@ -197,14 +201,20 @@ export default function Hero() {
               <button
                 type="submit"
                 className="mt-4 w-full px-4 py-3 rounded-full font-semibold text-white"
-                style={{ background: "linear-gradient(135deg,#2D6A3F,#4AAF6B)" }}
+                style={{
+                  background: "linear-gradient(135deg,#2D6A3F,#4AAF6B)",
+                }}
               >
                 Request Site Visit
               </button>
 
-              <p className="text-xs text-white/60 mt-3" style={{ fontFamily: "DM Sans, sans-serif" }}>
-                Or call us at <strong style={{ color: "#A3D9B1" }}>+91 98765 43210</strong>
-              </p>
+              {/* <p
+                className="text-xs text-white/60 mt-3"
+                style={{ fontFamily: "DM Sans, sans-serif" }}
+              >
+                Or call us at{" "}
+                <strong style={{ color: "#A3D9B1" }}>+91 98765 43210</strong>
+              </p> */}
             </form>
           </div>
         </div>

@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Grassry | Premium Landscape Design Delhi NCR',
-  description: 'Transform your outdoor space with Grassry — premium landscape design, garden development and outdoor execution across Delhi NCR.',
+  title: 'Grassry | Premium Landscape Design India',
+  description: 'Transform your outdoor space with Grassry — premium landscape design, garden development and outdoor execution across India.',
 };
 
 export default function RootLayout({ children }) {

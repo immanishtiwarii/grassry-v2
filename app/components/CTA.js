@@ -4,7 +4,7 @@ const BG = 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=8
 
 const CONTACTS = [
   { icon:'📞', text:'9315206056',       href:'tel:9315206056' },
-  { icon:'📍', text:'Delhi NCR',        href:'#' },
+  // { icon:'📍', text:'India',        href:'#' },
   { icon:'📧', text:'info@grassry.com', href:'mailto:info@grassry.com' },
 ];
 

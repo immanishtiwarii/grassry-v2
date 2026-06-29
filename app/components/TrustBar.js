@@ -14,7 +14,7 @@ export default function TrustBar() {
     <section className="py-16" style={{ background:'#FAF7F2', borderBottom:'1px solid #E8E0D0' }}>
       <div className="max-w-6xl mx-auto px-6">
         <p className="text-center section-label mb-10" style={{ color:'#9E8B72' }}>
-          Trusted by Homeowners, Architects &amp; Builders across Delhi NCR
+          Trusted by Homeowners, Architects &amp; Builders across India
         </p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-10">
           {STATS.map((s,i) => (

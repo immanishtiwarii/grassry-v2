@@ -33,11 +33,11 @@ export default function WhyGrassry() {
                 <img src={MOSAIC[1].src} alt={MOSAIC[1].alt} className="w-full h-full object-cover transition-transform duration-700"/>
               </div>
               {/* Bottom right — dark card */}
-              <div className="rounded-2xl p-6 flex flex-col justify-between h-[248px]"
+              {/* <div className="rounded-2xl p-6 flex flex-col justify-between h-[248px]"
                 style={{ background:'linear-gradient(135deg,#1A3A22,#2D6A3F)' }}>
                 <div className="text-4xl">🌿</div>
                 <div>
-                  <p className="text-white font-bold text-xl mb-1" style={{ fontFamily:'Cormorant Garamond,serif' }}>Delhi NCR Coverage</p>
+                  <p className="text-white font-bold text-xl mb-1" style={{ fontFamily:'Cormorant Garamond,serif' }}>India Coverage</p>
                   <p className="text-green-200/70 text-sm" style={{ fontFamily:'DM Sans,sans-serif' }}>Gurugram · Noida · Delhi · Faridabad</p>
                 </div>
                 <div className="flex gap-2 flex-wrap">
@@ -46,7 +46,7 @@ export default function WhyGrassry() {
                       style={{ background:'rgba(255,255,255,0.12)', fontFamily:'DM Sans,sans-serif' }}>{t}</span>
                   ))}
                 </div>
-              </div>
+              </div> */}
             </div>
           </FadeSection>
 

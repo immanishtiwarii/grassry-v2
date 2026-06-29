@@ -21,7 +21,7 @@ export default function Footer() {
               <span className="text-xl font-semibold text-white" style={{ fontFamily:'DM Serif Display,serif' }}>Grassry</span>
             </div>
             <p className="text-sm leading-relaxed" style={{ color:'rgba(255,255,255,0.45)', fontFamily:'DM Sans,sans-serif', maxWidth:'220px' }}>
-              Premium landscape design &amp; execution across Delhi NCR.
+              Premium landscape design &amp; execution across  India.
             </p>
           </div>
 
@@ -40,7 +40,7 @@ export default function Footer() {
           <div>
             <p className="text-xs font-semibold tracking-widest uppercase mb-4" style={{ color:'rgba(76,175,107,0.7)', fontFamily:'DM Sans,sans-serif' }}>Contact</p>
             <div className="flex flex-col gap-2">
-              {[['📞','9315206056'],['📧','info@grassry.com'],['📍','Delhi NCR']].map(([icon,text]) => (
+              {[['📞','9315206056'],['📧','info@grassry.com'],['📍','India']].map(([icon,text]) => (
                 <p key={text} className="text-sm" style={{ color:'rgba(255,255,255,0.45)', fontFamily:'DM Sans,sans-serif' }}>
                   <span className="mr-2">{icon}</span>{text}
                 </p>
@@ -54,7 +54,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Grassry. All rights reserved.
           </p>
           <p className="text-xs" style={{ color:'rgba(255,255,255,0.25)', fontFamily:'DM Sans,sans-serif' }}>
-            Premium Landscape Design · Delhi NCR
+            Premium Landscape Design · India
           </p>
         </div>
       </div>

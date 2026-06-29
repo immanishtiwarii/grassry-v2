@@ -16,7 +16,7 @@ export default function Partnerships() {
               <em className="not-italic" style={{ color:'#7C2D2D' }}>We Execute.</em>
             </h2>
             <p className="mb-6 leading-relaxed text-base" style={{ color:'#6B6B5A', fontFamily:'DM Sans,sans-serif', maxWidth:'400px' }}>
-              Grassry is the trusted landscape execution partner for design professionals across Delhi NCR — reliable, skilled and professionally managed.
+              Grassry is the trusted landscape execution partner for design professionals across India — reliable, skilled and professionally managed.
             </p>
             <div className="flex flex-wrap gap-2.5 mb-8">
               {PARTNERS.map(p => (
